@@ -34,7 +34,7 @@ body {
 }
 
 /*Active Page Navbar formatting --- NEEDS HELP!!!!!*/
-#mainNav .navbar-nav .nav-item:active{
+#mainNav .navbar-nav .nav-item a.active {
     font-weight: bold;
 }
 
