@@ -93,6 +93,13 @@ p {
     font-size: 20px; 
 }
 
+.footer {
+    background: url(img/footer-img.png);
+    background-position: bottom;
+    background-size: cover;
+    height: 300px;
+}
+
 /*Page titles*/
 
 .title-container {
