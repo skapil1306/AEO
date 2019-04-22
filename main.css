@@ -7,7 +7,9 @@ body {
     min-height:56px;
     background-color:#2046DB !important;
     font-family:'Avenir Next';
+    margin-bottom: 20px;
 }
+
 #mainNav .navbar-toggler{
     font-size:80%;
     padding:.75rem;
@@ -75,4 +77,25 @@ body {
         outline:0;
         border-bottom:.25rem solid #ffffff;
     }
+}
+
+
+/***************** END OF NAVBAR *********************/
+
+/*Page titles*/
+.main-title {
+    margin-top: 20%;
+    margin-left: 8%;
+    margin-right: 50%;
+    font-family:'Avenir Next';
+}
+
+h1.lg-heading {
+    font-size: 60px;
+}
+
+h3.sm-heading {
+    font-size: 24px;
+    padding-top: 2%;
+    line-height: 130%;
 }
