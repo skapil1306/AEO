@@ -22,8 +22,10 @@
     a(),e(window).scroll(a)
 }(jQuery);
 
-//Active NavBar item code
 
+
+
+//ACTIVE NAVBAR FORMATTING
 $(".navbar .navbar-nav").on("click", function(){
    $("li").find(".active").removeClass("active");
    $(this).addClass("active");
