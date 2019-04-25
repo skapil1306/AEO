@@ -96,10 +96,11 @@ p {
 }
 
 .footer {
-    background: url(img/footer-img-2.png);
-    background-position: bottom;
+    background: url(img/footer-img-3.png);
+    background-position: 0 50px;
     background-size: cover;
-    height: 200px;
+    height: 220px;
+    background-repeat: no-repeat;
 }
 
 /*Page titles*/
@@ -160,11 +161,14 @@ h2.name {
 }
 
 .pic {
+/*
     padding-top: 0%;
     padding-left: 10%;
     padding-right: 10%;
     margin-bottom: 20%;
     margin: 0%;
+    width: 20%;
+*/
 }
 
 .info-right {
@@ -173,6 +177,13 @@ h2.name {
     grid-template-areas: 
         'pic details';
     grid-template-columns: 1fr 1fr;
+}
+.info-right .pic img {
+        max-width: 100%;
+}
+
+.info-left .pic img {
+        max-width: 100%;
 }
 
 .info-left {
@@ -184,3 +195,11 @@ h2.name {
 }
 
 /***************** END OF TEAM PAGE ********************/
+
+
+
+
+/***************** RESEARCH PAGE ********************/
+
+
+/***************** END OF RESEARCH PAGE ********************/
