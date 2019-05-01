@@ -105,13 +105,6 @@ p {
 
 /*Page titles*/
 
-.title-container {
-    background: url(img/about/about-bg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 900px;
-}
-
 .main-title {
     margin-left: 12%;
     margin-right: 45%;
@@ -140,8 +133,25 @@ h3.sm-heading {
     font-weight: 600;
 }
 
+/*bottom part (top layer) for title containers*/
+.splash-bottom {
+    background: url(img/bg-bottom.svg);
+    background-repeat: no-repeat;
+    min-height: 800px;
+    z-index: 2;
+    background-size: cover;
+    position: relative;
+}
+
 
 /***************** TEAM PAGE ********************/
+
+.title-container-about {
+    background: url(img/about/About-bg.svg);
+    min-height: 800px;
+    z-index: 1;
+    margin-top: 20px;
+}
 
 .team-info {
     margin-top: 20%;
@@ -202,10 +212,11 @@ h2.name {
 /***************** RESEARCH PAGE ********************/
 
 .title-container-research {
-    background: url(img/about/about-bg.png);
+    background: url(img/research/Research-bg.svg);
     background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 900px;
+    min-height: 800px;
+    z-index: 1;
+    margin-top: 20px;
 }
 
 /***************** END OF RESEARCH PAGE ********************/
@@ -216,19 +227,10 @@ h2.name {
 .title-container-ideation {
     background: url(img/ideation/Ideation-bg.svg);
     background-repeat: no-repeat;
-    background-size: cover;
     min-height: 800px;
+    z-index: 1;
+    margin-top: 20px;
 }
 
 /***************** END OF IDEATION PAGE ********************/
     
-    
-    /**** test ****/
-    
-
-.splash-bottom {
-    background: url(img/bg-bottom.svg);
-    background-repeat: no-repeat;
-    min-height: 800px;
-    top: 20;
-}
