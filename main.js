@@ -30,3 +30,14 @@ $(".navbar .navbar-nav").on("click", function(){
    $("li").find(".active").removeClass("active");
    $(this).addClass("active");
 });
+
+/************************** PARALLAX SCROLLING *******************************/
+
+const parallax = document.getElementById("parallax");
+window.addEventListener("scroll", function()
+                        {
+    let offset = window.pageYOffset;
+    console.log('offset:' + offset);
+    console.log('offset * 0.7' + offset * 0.4);
+    parallax.style.backgroundPositionY = offset * 0.4 + "px";
+})

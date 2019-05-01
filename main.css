@@ -201,5 +201,34 @@ h2.name {
 
 /***************** RESEARCH PAGE ********************/
 
+.title-container-research {
+    background: url(img/about/about-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 900px;
+}
 
 /***************** END OF RESEARCH PAGE ********************/
+
+
+/***************** IDEATION PAGE ********************/
+
+.title-container-ideation {
+    background: url(img/ideation/Ideation-bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 800px;
+}
+
+/***************** END OF IDEATION PAGE ********************/
+    
+    
+    /**** test ****/
+    
+
+.splash-bottom {
+    background: url(img/bg-bottom.svg);
+    background-repeat: no-repeat;
+    min-height: 800px;
+    top: 20;
+}
