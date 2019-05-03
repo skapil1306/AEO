@@ -133,6 +133,12 @@ h3.sm-heading {
     font-weight: 600;
 }
 
+h1.super-lg-heading {
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 87px;
+}
+
 /*bottom part (top layer) for title containers*/
 .splash-bottom {
     background: url(img/bg-bottom.svg);
@@ -143,6 +149,11 @@ h3.sm-heading {
     position: relative;
 }
 
+.methods {
+    padding-left: 20px;
+    margin-top: 10%;
+    margin-bottom: 15%;
+}
 
 /***************** TEAM PAGE ********************/
 
