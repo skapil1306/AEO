@@ -243,5 +243,23 @@ h2.name {
     margin-top: 20px;
 }
 
+/* numbered titles */
+
+.numbered-title-left {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.number-right {
+    padding-right: 0;
+    margin-right: 0;
+}
+
+.numbered-para {
+    padding-left: 12%;
+    padding-right: 20%;
+}
+
+
 /***************** END OF IDEATION PAGE ********************/
     
