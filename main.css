@@ -155,6 +155,12 @@ h1.super-lg-heading {
     margin-bottom: 15%;
 }
 
+/*blue text in paragraphs*/
+
+blue {
+    color: #6FC9BD;
+}
+
 /***************** TEAM PAGE ********************/
 
 .title-container-about {
@@ -257,7 +263,7 @@ h2.name {
 
 .numbered-para {
     padding-left: 12%;
-    padding-right: 20%;
+    padding-right: 18%;
 }
 
 
