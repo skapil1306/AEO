@@ -105,13 +105,6 @@ p {
 
 /*Page titles*/
 
-.title-container {
-    background: url(img/about/about-bg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 900px;
-}
-
 .main-title {
     margin-left: 12%;
     margin-right: 45%;
@@ -140,8 +133,42 @@ h3.sm-heading {
     font-weight: 600;
 }
 
+h1.super-lg-heading {
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 87px;
+}
+
+/*bottom part (top layer) for title containers*/
+.splash-bottom {
+    background: url(img/bg-bottom.svg);
+    background-repeat: no-repeat;
+    min-height: 800px;
+    z-index: 2;
+    background-size: cover;
+    position: relative;
+}
+
+.methods {
+    padding-left: 20px;
+    margin-top: 10%;
+    margin-bottom: 15%;
+}
+
+/*blue text in paragraphs*/
+
+blue {
+    color: #6FC9BD;
+}
 
 /***************** TEAM PAGE ********************/
+
+.title-container-about {
+    background: url(img/about/About-bg.svg);
+    min-height: 800px;
+    z-index: 1;
+    margin-top: 20px;
+}
 
 .team-info {
     margin-top: 20%;
@@ -201,5 +228,44 @@ h2.name {
 
 /***************** RESEARCH PAGE ********************/
 
+.title-container-research {
+    background: url(img/research/Research-bg.svg);
+    background-repeat: no-repeat;
+    min-height: 800px;
+    z-index: 1;
+    margin-top: 20px;
+}
 
 /***************** END OF RESEARCH PAGE ********************/
+
+
+/***************** IDEATION PAGE ********************/
+
+.title-container-ideation {
+    background: url(img/ideation/Ideation-bg.svg);
+    background-repeat: no-repeat;
+    min-height: 800px;
+    z-index: 1;
+    margin-top: 20px;
+}
+
+/* numbered titles */
+
+.numbered-title-left {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.number-right {
+    padding-right: 0;
+    margin-right: 0;
+}
+
+.numbered-para {
+    padding-left: 12%;
+    padding-right: 18%;
+}
+
+
+/***************** END OF IDEATION PAGE ********************/
+    
