@@ -38,6 +38,6 @@ window.addEventListener("scroll", function()
                         {
     let offset = window.pageYOffset;
     console.log('offset:' + offset);
-    console.log('offset * 0.7' + offset * 0.4);
-    parallax.style.backgroundPositionY = offset * 0.4 + "px";
+    console.log('offset * 0.7' + offset * 0.5);
+    parallax.style.backgroundPositionY = offset * 0.5 + "px";
 })

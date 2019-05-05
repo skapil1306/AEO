@@ -254,6 +254,7 @@ h2.name {
 .numbered-title-left {
     display: inline-flex;
     justify-content: space-between;
+    margin-bottom: 5%;
 }
 
 .number-right {
@@ -266,6 +267,27 @@ h2.name {
     padding-right: 18%;
 }
 
+.id-blue-heads {
+    font-size: 40px;
+    font-weight: 700;
+    color: #2049D7;
+    margin-bottom: 5%;
+    margin-top: 12%;
+}
+
+.row {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.ideation-insights {
+    margin-left: 12%;
+}
+
+.gaby-pic {
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
 
 /***************** END OF IDEATION PAGE ********************/
     
