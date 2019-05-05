@@ -3,6 +3,7 @@
 /*Borrowed CSS formatting for NavBar from free bootstrap theme: https://startbootstrap.com/template-overviews/grayscale/*/
 body {
     background-color: #ffffff;
+    font-family:'Avenir Next';
 }
 
 #mainNav{
@@ -89,6 +90,10 @@ body {
     margin-left: 12%;
     margin-right: 12%;
     font-family:'Avenir Next';
+}
+
+object {
+    max-width: 1000px;
 }
 
 p {
@@ -307,6 +312,7 @@ h2.name {
 .numbered-title-left {
     display: inline-flex;
     justify-content: space-between;
+    margin-bottom: 5%;
 }
 
 .number-right {
@@ -319,6 +325,38 @@ h2.name {
     padding-right: 18%;
 }
 
+.id-blue-heads {
+    font-size: 40px;
+    font-weight: 700;
+    color: #2049D7;
+    margin-bottom: 5%;
+    margin-top: 10%;
+}
+
+.row {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.ideation-insights {
+    margin-left: 12%;
+}
+
+.gaby-pic {
+    padding-top: 15%;
+}
+
+.matrix {
+    background: url(img/ideation/ideationMatrix-bg.svg);
+    background-size: cover;
+    height: 1000px;
+    padding-top: 10%;
+}
+
+.centered-model {
+    align-content: center;
+    margin-top: 5%;
+}
 
 
 /***************** END OF IDEATION PAGE ********************/
