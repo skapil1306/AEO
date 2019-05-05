@@ -115,17 +115,20 @@ p {
 
 h1.lg-heading {
     font-size: 60px;
+    font-family:'Avenir Next';
 }
 
 h2.md-heading {
     font-size: 48px;
     font-weight: bold;
+    font-family:'Avenir Next';
 }
 
 h3.sm-heading {
     font-size: 24px;
     padding-top: 2%;
     line-height: 130%;
+    font-family:'Avenir Next';
 }
 
 .content-title {
@@ -137,6 +140,7 @@ h1.super-lg-heading {
     font-size: 64px;
     font-weight: 600;
     line-height: 87px;
+    font-family:'Avenir Next';
 }
 
 /*bottom part (top layer) for title containers*/
@@ -236,6 +240,55 @@ h2.name {
     margin-top: 20px;
 }
 
+.content .subtitle {
+    display: inline-flex;
+    font-family: 'Avenir Next';
+    font-weight: bold;
+    line-height: 163.9%;
+    color: #2049D7;
+}
+
+.highlight {
+    color: #8FA2ED;
+}
+
+.image-right {
+    margin-top: -230px;
+}
+
+.image-left {
+    margin-top: -230px;
+    margin-left: -350px;
+}
+
+#bfk-background {
+    background-image: url(img/research/bfk/bg.svg);
+
+}
+
+.section-content-top {
+    display: inline-flex;
+    font-family: 'Avenir Next';
+    font-weight: medium;
+}
+
+.summary p {
+    font-size: 20px;
+    line-height: 163.9%;
+}
+
+/*
+.number-right {
+    margin-top: 0px;
+    margin-right: 0px;
+    padding-right: 0px;
+}
+*/
+
+.insights {
+    padding: 30px;
+}
+
 /***************** END OF RESEARCH PAGE ********************/
 
 
@@ -265,6 +318,7 @@ h2.name {
     padding-left: 12%;
     padding-right: 18%;
 }
+
 
 
 /***************** END OF IDEATION PAGE ********************/
