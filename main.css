@@ -358,6 +358,13 @@ h2.name {
     margin-top: 5%;
 }
 
+.exp-proto-grid {
+    margin: 12%;
+    display: grid;
+    grid-template-areas:
+        'collab-outfit moodboard 3D-scan';
+    grid-template-columns: 1fr 1fr 1fr;
+}
 
 /***************** END OF IDEATION PAGE ********************/
     
