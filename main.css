@@ -170,6 +170,10 @@ blue {
     color: #6FC9BD;
 }
 
+p.small {
+    font-size: 16px;
+}
+
 /***************** TEAM PAGE ********************/
 
 .title-container-about {
@@ -362,20 +366,27 @@ h2.name {
 .exp-proto-grid {
     margin-left: 12%;
     margin-top: 5%;
-    display: flex;
-    float: left;
+    display: inline-grid;
+    grid-template-areas: 
+        'exp-collab-outfit exp-moodeboard exp-3D-scan';
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .exp-collab-outfit {
-    margin: 5%;
+    margin: 10%;
 }
 
 .exp-moodboard {
-    margin: 5%;
+    margin: 10%;
 }
 
 .exp-3D-scan {
-    margin: 5%;
+    margin: 10%;
+}
+
+.para-title {
+    font-size: 30px;
+    font-weight: 600;
 }
 /***************** END OF IDEATION PAGE ********************/
     
