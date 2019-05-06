@@ -313,7 +313,7 @@ h2.name {
 
 /* numbered titles */
 
-.numbered-title-left {
+.numbered-title {
     display: inline-flex;
     justify-content: space-between;
     margin-bottom: 5%;
@@ -364,8 +364,8 @@ h2.name {
 }
 
 .exp-proto-grid {
-    margin-left: 12%;
-    margin-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
     display: inline-grid;
     grid-template-areas: 
         'exp-collab-outfit exp-moodeboard exp-3D-scan';
@@ -387,6 +387,12 @@ h2.name {
 .para-title {
     font-size: 30px;
     font-weight: 600;
+}
+
+.centered-box {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 12%;
 }
 /***************** END OF IDEATION PAGE ********************/
     
