@@ -351,6 +351,7 @@ h2.name {
     background-size: cover;
     height: 1000px;
     padding-top: 10%;
+    margin-bottom: 5%;
 }
 
 .centered-model {
@@ -359,11 +360,10 @@ h2.name {
 }
 
 .exp-proto-grid {
-    margin: 12%;
-    display: grid;
-    grid-template-areas:
-        'collab-outfit moodboard 3D-scan';
-    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 12%;
+    margin-top: 5%;
+    display: flex;
+    float: left;
 }
 
 .exp-collab-outfit {
