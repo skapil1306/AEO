@@ -395,4 +395,17 @@ h2.name {
     margin-bottom: 12%;
 }
 /***************** END OF IDEATION PAGE ********************/
+
+
+/***************** HOME PAGE ********************/
+
+.title-container-home {
+    background: url(img/home/home-bg-main.svg);
+    background-repeat: no-repeat;
+    min-height: 800px;
+    z-index: 1;
+    margin-top: 20px;
+}
+
+/***************** END OF HOME PAGE ********************/
     
