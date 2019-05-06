@@ -366,5 +366,16 @@ h2.name {
     grid-template-columns: 1fr 1fr 1fr;
 }
 
+.exp-collab-outfit {
+    margin: 5%;
+}
+
+.exp-moodboard {
+    margin: 5%;
+}
+
+.exp-3D-scan {
+    margin: 5%;
+}
 /***************** END OF IDEATION PAGE ********************/
     
