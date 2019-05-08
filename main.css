@@ -99,7 +99,6 @@ a.black-txt {
     margin-top: 10%;
     font-family:'Avenir Next';
     z-index: 3;
-    background-color: white;
 }
 
 object {
@@ -507,12 +506,12 @@ img.hover-shadow {
     background-size: cover;
     height: 1000px;
     padding-top: 10%;
-    margin-bottom: 5%;
+    margin-bottom: 15%;
 }
 
 .centered-model {
     align-content: center;
-    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .exp-proto-grid {
