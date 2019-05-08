@@ -85,11 +85,21 @@ body {
 /***************** END OF NAVBAR *********************/
 
 /**************** GLOBAL STYLES ******************/
+a {
+    text-decoration: none !important;
+}
+
+a.black-txt {
+    color: black !important;
+}
 
 .content {
     margin-left: 12%;
     margin-right: 12%;
+    margin-top: 10%;
     font-family:'Avenir Next';
+    z-index: 3;
+    background-color: white;
 }
 
 object {
@@ -178,7 +188,8 @@ p.small {
 
 .title-container-about {
     background: url(img/about/About-bg.svg);
-    min-height: 800px;
+    max-height: 1050px;
+    background-size: cover;
     z-index: 1;
     margin-top: 20px;
 }
@@ -325,7 +336,8 @@ h1 h3 {
 .title-container-ideation {
     background: url(img/ideation/Ideation-bg.svg);
     background-repeat: no-repeat;
-    min-height: 800px;
+    max-height: 1000px;
+    background-size: cover;
     z-index: 1;
     margin-top: 20px;
 }
@@ -421,9 +433,65 @@ h1 h3 {
 .title-container-home {
     background: url(img/home/home-bg-main.svg);
     background-repeat: no-repeat;
-    min-height: 1020px;
+    max-height: 1100px;
+    background-size: cover;
     z-index: 1;
     margin-top: 20px;
+}
+
+.home-splash-bottom {
+    background: url(img/home/home-splash.svg);
+    background-repeat: no-repeat;
+    min-height: 600px;
+    z-index: 2;
+    background-size: cover;
+    position: relative;
+}
+
+.home-title {
+    margin-left: 0;
+    margin-right: 50%;
+    padding-top: 10%;
+}
+
+.home-content {
+    background: url(img/home/home-bg.svg);
+    min-height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 3;
+    margin-top: 10%;
+    text-align: center;
+}
+
+.box {
+    width: 308px;
+    height: 391px;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 40px rgba(27, 44, 43, 0.1);
+    border-radius: 20px;
+    text-align: center;
+    padding: 15%;
+}
+
+.box:hover {
+    background-color: rgba(31, 17, 227, 0.1);
+}
+
+.process-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 8%;
+    margin-left: 12%;
+    margin-right: 12%;
+}
+
+h2.process-link-title {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 34px;
+    text-shadow: 0px 4px 20px rgba(65, 75, 177, 0.12);
 }
 
 /***************** END OF HOME PAGE ********************/
@@ -435,7 +503,7 @@ h1 h3 {
 .title-container-blueprint {
     background: url(img/about/about-bg.svg);
     background-repeat: no-repeat;
-    min-height: 800px;
+    max-height: 1000px;
     z-index: 1;
     margin-top: 20px;
     font-family: 'Avenir Next';
