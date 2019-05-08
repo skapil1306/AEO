@@ -96,7 +96,10 @@ a.black-txt {
 .content {
     margin-left: 12%;
     margin-right: 12%;
+    margin-top: 10%;
     font-family:'Avenir Next';
+    z-index: 3;
+    background-color: white;
 }
 
 object {
@@ -185,7 +188,8 @@ p.small {
 
 .title-container-about {
     background: url(img/about/About-bg.svg);
-    min-height: 800px;
+    max-height: 1050px;
+    background-size: cover;
     z-index: 1;
     margin-top: 20px;
 }
@@ -305,7 +309,8 @@ h2.name {
 .title-container-ideation {
     background: url(img/ideation/Ideation-bg.svg);
     background-repeat: no-repeat;
-    min-height: 800px;
+    max-height: 1000px;
+    background-size: cover;
     z-index: 1;
     margin-top: 20px;
 }
@@ -471,7 +476,7 @@ h2.process-link-title {
 .title-container-blueprint {
     background: url(img/about/about-bg.svg);
     background-repeat: no-repeat;
-    min-height: 800px;
+    max-height: 1000px;
     z-index: 1;
     margin-top: 20px;
     font-family: 'Avenir Next';
