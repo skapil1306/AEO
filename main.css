@@ -394,7 +394,8 @@ h2.name {
 .title-container-home {
     background: url(img/home/home-bg-main.svg);
     background-repeat: no-repeat;
-    min-height: 1000px;
+    max-height: 1150px;
+    background-size: cover;
     z-index: 1;
     margin-top: 20px;
 }
