@@ -411,8 +411,33 @@ h2.name {
     min-height: 800px;
     z-index: 1;
     margin-top: 20px;
+    font-family: 'Avenir Next';
 }
 
+.two-conclusions {
+    display: flex;
+    padding: 10px;
+}
+
+.two-conclusions h2{
+    font-family: 'Avenir Next';
+    font-weight: 'Demi Bold';
+}
+
+.conclusion {
+    padding: 20px;
+    margin-right: 60px;
+    font-family: 'Avenir Next';
+    font-weight: bold;
+    line-height: 163.9%;
+}
+
+#present {
+    font-family: 'Avenir Next';
+    font-weight: bold;
+    line-height: 163.9%;
+    color: #2049D7;
+}
 /***************** END OF BLUEPRINT PAGE ********************/
 
 
