@@ -402,7 +402,7 @@ h2.name {
 .title-container-home {
     background: url(img/home/home-bg-main.svg);
     background-repeat: no-repeat;
-    min-height: 800px;
+    min-height: 1020px;
     z-index: 1;
     margin-top: 20px;
 }
