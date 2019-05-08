@@ -262,7 +262,7 @@ h2.name {
 }
 
 .image-right {
-    margin-top: -230px;
+    margin-top: -90px;
 }
 
 .image-left {
@@ -285,14 +285,6 @@ h2.name {
     font-size: 20px;
     line-height: 163.9%;
 }
-
-/*
-.number-right {
-    margin-top: 0px;
-    margin-right: 0px;
-    padding-right: 0px;
-}
-*/
 
 .insights {
     padding: 30px;
@@ -424,4 +416,46 @@ h2.name {
 
 
 /***************** END OF HOME PAGE ********************/
+
+
+
+/***************** BLUEPRINT PAGE ********************/
+
+.title-container-blueprint {
+    background: url(img/about/about-bg.svg);
+    background-repeat: no-repeat;
+    min-height: 800px;
+    z-index: 1;
+    margin-top: 20px;
+    font-family: 'Avenir Next';
+}
+
+.two-conclusions {
+    display: flex;
+    padding: 10px;
+}
+
+.two-conclusions h2{
+    font-family: 'Avenir Next';
+    font-weight: 'Demi Bold';
+}
+
+.conclusion {
+    padding: 20px;
+    margin-right: 60px;
+    font-family: 'Avenir Next';
+    font-weight: bold;
+    line-height: 163.9%;
+}
+
+#present {
+    font-family: 'Avenir Next';
+    font-weight: bold;
+    line-height: 163.9%;
+    color: #2049D7;
+}
+/***************** END OF BLUEPRINT PAGE ********************/
+
+
+
     
