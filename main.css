@@ -249,6 +249,10 @@ h2.name {
     margin-top: 20px;
 }
 
+h1 h3 {
+    font-family: 'Avenir Next';
+}
+
 .content .subtitle {
     display: inline-flex;
     font-family: 'Avenir Next';
@@ -257,12 +261,35 @@ h2.name {
     color: #2049D7;
 }
 
+.statement-pic {
+    display: flex;
+}
+
+.subtitle-pic {
+    overflow: hidden;
+}
+
+.affinity-content {
+    display: flex;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
 .highlight {
     color: #8FA2ED;
 }
 
 .image-right {
-    margin-top: -90px;
+    overflow: hidden;
 }
 
 .image-left {
