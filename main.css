@@ -554,7 +554,7 @@ img.hover-shadow {
 /***************** HOME PAGE ********************/
 
 .title-container-home {
-    background: url(img/home/home-bg-main.svg);
+    background: url(img/home/home-bg-main.png);
     background-repeat: no-repeat;
     max-height: 1100px;
     background-size: cover;
