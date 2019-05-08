@@ -402,10 +402,26 @@ h2.name {
 .title-container-home {
     background: url(img/home/home-bg-main.svg);
     background-repeat: no-repeat;
-    min-height: 1020px;
+    min-height: 1000px;
     z-index: 1;
     margin-top: 20px;
 }
+
+.home-splash-bottom {
+    background: url(img/home/home-splash.svg);
+    background-repeat: no-repeat;
+    min-height: 800px;
+    z-index: 2;
+    background-size: cover;
+    position: relative;
+}
+
+.home-title {
+    margin-left: 0;
+    margin-right: 50%;
+    padding-top: 10%;
+}
+
 
 /***************** END OF HOME PAGE ********************/
     
