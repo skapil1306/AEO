@@ -100,6 +100,9 @@ a.black-txt {
     font-family:'Avenir Next';
     z-index: 3;
 }
+.content.affinity {
+    margin: 6% 6% 0 6%;
+}
 
 object {
     max-width: 1000px;
@@ -656,5 +659,21 @@ h2.process-link-title {
 /***************** END OF BLUEPRINT PAGE ********************/
 
 
-
+/** empathy-map-carousel styles **/
+.carousel .carousel-control-prev-icon,
+.carousel .carousel-control-next-icon{
+    width: 48px;
+    height: 48px;
+    background-color: #2046DB;
+    border-radius: 50%;
+    background-size: 24px 24px;
+}
     
+.carousel .carousel-control-prev-icon {
+    margin-right: auto;
+    margin-left: -96px;
+}
+.carousel .carousel-control-next-icon {
+    margin-left: auto;
+    margin-right: -96px;
+}
